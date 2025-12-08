@@ -3494,3 +3494,156 @@ remove the file manually to continue.
 
 [2025-12-08 01:47:52] 📂 Detected change: C:\Users\Christine\Documents\design-workflow\.git\objects\objnoy526cw
 [2025-12-08 01:47:52] 🔄 Starting Git auto-sync...
+[2025-12-08 01:47:52] ⚠️ error: cannot pull with rebase: You have unstaged changes.
+error: additionally, your index contains uncommitted changes.
+error: Please commit or stash them.
+[2025-12-08 01:47:52] ⚠️ fatal: Unable to create 'C:/Users/Christine/Documents/design-workflow/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+[2025-12-08 01:47:53] [main 468033a] Auto-sync at 2025-12-08 01:47:52
+ 1 file changed, 30 insertions(+)
+[2025-12-08 01:47:55] ⚠️ To https://github.com/Cvbella22/design-workflow.git
+   cc8a91b..468033a  main -> main
+[2025-12-08 01:47:55] ✅ Sync complete.
+
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] ⚠️ Could not remove lock: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Christine\\Documents\\design-workflow\\.git\\index.lock'
+[2025-12-08 01:47:55] 📂 Detected change: C:\Users\Christine\Documents\design-workflow\.git\refs\remotes\origin\main.lock
+[2025-12-08 01:47:55] 🔄 Starting Git auto-sync...
+[2025-12-08 01:47:55] ⚠️ error: cannot pull with rebase: You have unstaged changes.
+error: additionally, your index contains uncommitted changes.
+error: Please commit or stash them.
+[2025-12-08 01:47:55] ⚠️ fatal: Unable to create 'C:/Users/Christine/Documents/design-workflow/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+[2025-12-08 01:47:57] ⚠️ Everything up-to-date
+[2025-12-08 01:47:57] ✅ Sync complete.
+
+[2025-12-08 01:47:57] 📂 Detected change: C:\Users\Christine\Documents\design-workflow\auto_sync.log
+[2025-12-08 01:47:57] 🔄 Starting Git auto-sync...
+[2025-12-08 01:47:57] ⚠️ error: cannot pull with rebase: You have unstaged changes.
+error: additionally, your index contains uncommitted changes.
+error: Please commit or stash them.
+[2025-12-08 01:47:57] ⚠️ fatal: Unable to create 'C:/Users/Christine/Documents/design-workflow/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+[2025-12-08 01:47:58] ⚠️ Everything up-to-date
+[2025-12-08 01:47:58] ✅ Sync complete.
+
+[2025-12-08 01:47:58] 📂 Detected change: C:\Users\Christine\Documents\design-workflow\.git\index.lock
+[2025-12-08 01:47:58] 🔄 Starting Git auto-sync...
+[2025-12-08 01:47:58] ⚠️ error: cannot pull with rebase: You have unstaged changes.
+error: additionally, your index contains uncommitted changes.
+error: Please commit or stash them.
+[2025-12-08 01:47:59] ⚠️ fatal: Unable to create 'C:/Users/Christine/Documents/design-workflow/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+[2025-12-08 01:48:00] ⚠️ Everything up-to-date
+[2025-12-08 01:48:00] ✅ Sync complete.
+
+[2025-12-08 01:48:00] 📂 Detected change: C:\Users\Christine\Documents\design-workflow\auto_sync.log
+[2025-12-08 01:48:00] 🔄 Starting Git auto-sync...
