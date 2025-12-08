@@ -1,0 +1,109 @@
+[2025-12-07 22:11:31] 
+--- Folder Validation Started ---
+[2025-12-07 22:11:31] ✅ Exists: collections
+[2025-12-07 22:11:31] ✅ Exists: config
+[2025-12-07 22:11:31] ✅ Exists: designs
+[2025-12-07 22:11:31] ✅ Exists: logs
+[2025-12-07 22:11:31] ✅ Exists: metadata
+[2025-12-07 22:11:31] ✅ Exists: mockup_templates
+[2025-12-07 22:11:31] ✅ Exists: mockups_output
+[2025-12-07 22:11:31] ✅ Exists: node_modules
+[2025-12-07 22:11:31] ✅ Exists: psd_templates
+[2025-12-07 22:11:31] ✅ Exists: scripts
+[2025-12-07 22:11:31] 
+Summary: 10 existing | 0 created
+
+[2025-12-07 22:11:31] --- Folder Validation Complete ---
+
+[2025-12-07 22:13:07] 
+==============================
+[2025-12-07 22:13:07] 🚀 POD Workflow Full System Check Started
+[2025-12-07 22:13:07] ==============================
+[2025-12-07 22:13:07] 
+--- FOLDER VALIDATION ---
+[2025-12-07 22:13:07] ✅ Exists: collections
+[2025-12-07 22:13:07] ✅ Exists: config
+[2025-12-07 22:13:07] ✅ Exists: designs
+[2025-12-07 22:13:07] ✅ Exists: logs
+[2025-12-07 22:13:07] ✅ Exists: metadata
+[2025-12-07 22:13:07] ✅ Exists: mockup_templates
+[2025-12-07 22:13:07] ✅ Exists: mockups_output
+[2025-12-07 22:13:07] ✅ Exists: node_modules
+[2025-12-07 22:13:07] ✅ Exists: psd_templates
+[2025-12-07 22:13:07] ✅ Exists: scripts
+[2025-12-07 22:13:07] Summary: 10 existing | 0 created
+
+[2025-12-07 22:13:07] --- FILE VALIDATION ---
+[2025-12-07 22:13:07] ✅ File found: .env
+[2025-12-07 22:13:07] ✅ File found: package.json
+[2025-12-07 22:13:07] ✅ File found: package-lock.json
+[2025-12-07 22:13:07] Summary: 3 found | 0 missing
+
+[2025-12-07 22:13:07] --- TEMPLATE CONTENT CHECK ---
+[2025-12-07 22:13:07] ⚠️ Empty template folder: mockup_templates
+[2025-12-07 22:13:07] ⚠️ Empty template folder: psd_templates
+[2025-12-07 22:13:07] --- TEMPLATE CHECK COMPLETE ---
+
+[2025-12-07 22:13:07] ✅ Validation Complete. System Ready.
+
+[2025-12-07 22:43:36] 
+=== POD Integrity Manager Run ===
+[2025-12-07 22:43:36] ✅ Exists: collections
+[2025-12-07 22:43:36] ✅ Exists: config
+[2025-12-07 22:43:36] ✅ Exists: designs
+[2025-12-07 22:43:36] ✅ Exists: logs
+[2025-12-07 22:43:36] ✅ Exists: metadata
+[2025-12-07 22:43:36] ✅ Exists: mockup_templates
+[2025-12-07 22:43:36] ✅ Exists: mockups_output
+[2025-12-07 22:43:36] ✅ Exists: node_modules
+[2025-12-07 22:43:36] ✅ Exists: psd_templates
+[2025-12-07 22:43:36] ✅ Exists: scripts
+[2025-12-07 22:43:36] Summary: 10 existing | 0 created
+[2025-12-07 22:43:36] ✅ File found: .env
+[2025-12-07 22:43:36] ✅ File found: package.json
+[2025-12-07 22:43:36] ✅ File found: package-lock.json
+[2025-12-07 22:43:36] ⚠️ Firebase not configured; skipping upload.
+[2025-12-07 22:43:36] 🪄 Git repository initialized.
+[2025-12-07 22:43:52] 💾 Commit created locally (push disabled).
+[2025-12-07 22:43:52] ✅ Workflow complete.
+
+[2025-12-08 00:33:23] 
+=== POD Integrity Manager Run ===
+[2025-12-08 00:33:23] ✅ Exists: collections
+[2025-12-08 00:33:23] ✅ Exists: config
+[2025-12-08 00:33:23] ✅ Exists: designs
+[2025-12-08 00:33:23] ✅ Exists: logs
+[2025-12-08 00:33:23] ✅ Exists: metadata
+[2025-12-08 00:33:23] ✅ Exists: mockup_templates
+[2025-12-08 00:33:23] ✅ Exists: mockups_output
+[2025-12-08 00:33:23] ✅ Exists: node_modules
+[2025-12-08 00:33:23] ✅ Exists: psd_templates
+[2025-12-08 00:33:23] ✅ Exists: scripts
+[2025-12-08 00:33:23] Summary: 10 existing | 0 created
+[2025-12-08 00:33:23] ✅ File found: .env
+[2025-12-08 00:33:23] ✅ File found: package.json
+[2025-12-08 00:33:23] ✅ File found: package-lock.json
+[2025-12-08 00:33:23] ⚠️ Firebase not configured; skipping upload.
+[2025-12-08 00:33:39] 🚀 Pushed to GitHub.
+[2025-12-08 00:33:39] ✅ Workflow complete.
+
+[2025-12-08 00:47:01] 
+=== POD Integrity Manager Run ===
+[2025-12-08 00:47:01] ✅ Exists: collections
+[2025-12-08 00:47:01] ✅ Exists: config
+[2025-12-08 00:47:01] ✅ Exists: designs
+[2025-12-08 00:47:01] ✅ Exists: logs
+[2025-12-08 00:47:01] ✅ Exists: metadata
+[2025-12-08 00:47:01] ✅ Exists: mockup_templates
+[2025-12-08 00:47:01] ✅ Exists: mockups_output
+[2025-12-08 00:47:01] ✅ Exists: node_modules
+[2025-12-08 00:47:01] ✅ Exists: psd_templates
+[2025-12-08 00:47:01] ✅ Exists: scripts
+[2025-12-08 00:47:01] Summary: 10 existing | 0 created
+[2025-12-08 00:47:01] ✅ File found: .env
+[2025-12-08 00:47:01] ✅ File found: package.json
+[2025-12-08 00:47:01] ✅ File found: package-lock.json
+[2025-12-08 00:47:01] ⚠️ Firebase not configured; skipping upload.
+[2025-12-08 00:47:03] 🚀 Pushed to GitHub.
+[2025-12-08 00:47:03] ✅ Workflow complete.
+
