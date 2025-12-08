@@ -1,97 +1,87 @@
 import os
 import time
-import datetime
-from pathlib import Path
-from dotenv import load_dotenv
-from git import Repo
+import subprocess
+from datetime import datetime
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
-import firebase_admin
-from firebase_admin import credentials, storage
 
 # === CONFIG ===
-BASE_PATH = os.path.dirname(os.path.abspath(__file__))
-load_dotenv(os.path.join(BASE_PATH, ".env"))
+BASE_PATH = os.path.abspath(os.path.dirname(__file__))
+CHECK_INTERVAL = 3  # seconds between scans
+LOG_FILE = os.path.join(BASE_PATH, "auto_sync.log")
 
-GIT_REMOTE = os.getenv("GIT_REMOTE", "").strip()
-AUTO_PUSH = os.getenv("AUTO_PUSH", "true").lower() == "true"
-CHECK_INTERVAL = 2  # seconds between file checks
+GIT_REMOTE = "origin"
+GIT_BRANCH = "main"
 
-# === Firebase Setup ===
-cred_path = os.path.join(BASE_PATH, "config", "serviceAccountKey.json")
-if os.path.exists(cred_path):
-    cred = credentials.Certificate(cred_path)
-    firebase_admin.initialize_app(cred, {
-        'storageBucket': '<your-bucket-name>.appspot.com'  # Replace with your real bucket
-    })
-    print("✅ Firebase initialized.")
-else:
-    print("⚠️ Firebase serviceAccountKey.json not found in config folder.")
+def log(msg):
+    """Log to console and file."""
+    print(msg)
+    with open(LOG_FILE, "a", encoding="utf-8") as f:
+        f.write(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] {msg}\n")
 
+def run_git_command(command):
+    """Run a Git command and log output."""
+    try:
+        result = subprocess.run(command, shell=True, cwd=BASE_PATH, capture_output=True, text=True)
+        if result.stdout:
+            log(result.stdout.strip())
+        if result.stderr:
+            log(f"⚠️ {result.stderr.strip()}")
+    except Exception as e:
+        log(f"❌ Error running '{command}': {e}")
 
-# === Git Auto Handler ===
 class GitAutoHandler(FileSystemEventHandler):
-    def __init__(self, repo):
-        self.repo = repo
-        self.last_commit_time = 0
-
     def on_any_event(self, event):
         if event.is_directory:
             return
 
-        # Avoid flooding commits
-        now = time.time()
-        if now - self.last_commit_time < CHECK_INTERVAL:
-            return
-        self.last_commit_time = now
+        # Remove index.lock if stuck
+        lock_file = os.path.join(BASE_PATH, ".git", "index.lock")
+        if os.path.exists(lock_file):
+            try:
+                os.remove(lock_file)
+                log("🧹 Removed stale .git/index.lock")
+            except Exception as e:
+                log(f"⚠️ Could not remove lock: {e}")
+                return
 
-        # Prevent conflicts from another running git process
-        lock_file = Path(BASE_PATH) / ".git" / "index.lock"
-        if lock_file.exists():
-            print("⚠️ Git lock detected — skipping this cycle.")
-            return
+        # Auto sync changes
+        log(f"📂 Detected change: {event.src_path}")
+        self.auto_sync()
 
-        try:
-            # Stage and commit all changes
-            self.repo.git.add(A=True)
-            msg = f"[AutoSync] {datetime.datetime.now():%Y-%m-%d %H:%M:%S}"
-            self.repo.index.commit(msg)
-            print(f"✅ Committed change: {event.src_path}")
+    def auto_sync(self):
+        log("🔄 Starting Git auto-sync...")
 
-            # Push if enabled
-            if AUTO_PUSH:
-                self.repo.git.push("origin", "main")
-                print("🚀 Pushed to GitHub.")
+        # Pull first (to avoid rejections)
+        run_git_command(f"git pull --rebase {GIT_REMOTE} {GIT_BRANCH}")
 
-            # Optional: Upload logs to Firebase
-            log_path = os.path.join(BASE_PATH, "logs", "folder_check.log")
-            if os.path.exists(log_path):
-                bucket = storage.bucket('sample-firebase-ai-app-55874.appspot.com')
-                blob = bucket.blob(f"logs/{os.path.basename(log_path)}")
-                blob.upload_from_filename(log_path)
-                print("☁️ Logs uploaded to Firebase.")
+        # Stage all changes
+        run_git_command("git add .")
 
-        except Exception as e:
-            print(f"⚠️ Git operation failed: {e}")
+        # Commit with timestamp
+        msg = f"Auto-sync at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
+        run_git_command(f'git commit -m "{msg}"')
 
+        # Push to GitHub
+        run_git_command(f"git push {GIT_REMOTE} {GIT_BRANCH}")
 
-# === MAIN LOOP ===
+        log("✅ Sync complete.\n")
+
 def main():
-    print("🔁 Watching for file changes...")
-    repo = Repo(BASE_PATH)
-    event_handler = GitAutoHandler(repo)
+    log("🚀 Auto Git Watcher started.")
+    log(f"📁 Watching folder: {BASE_PATH}")
+    event_handler = GitAutoHandler()
     observer = Observer()
     observer.schedule(event_handler, BASE_PATH, recursive=True)
     observer.start()
 
     try:
         while True:
-            time.sleep(1)
+            time.sleep(CHECK_INTERVAL)
     except KeyboardInterrupt:
+        log("🛑 Auto Git Watcher stopped.")
         observer.stop()
-
     observer.join()
-
 
 if __name__ == "__main__":
     main()

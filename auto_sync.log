@@ -1,0 +1,5 @@
+[2025-12-08 01:42:30] 🚀 Auto Git Watcher started.
+[2025-12-08 01:42:30] 📁 Watching folder: C:\Users\Christine\Documents\design-workflow
+[2025-12-08 01:44:42] 🧹 Removed stale .git/index.lock
+[2025-12-08 01:44:42] 📂 Detected change: C:\Users\Christine\Documents\design-workflow\start_auto_sync.bat
+[2025-12-08 01:44:42] 🔄 Starting Git auto-sync...
