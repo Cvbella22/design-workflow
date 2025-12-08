@@ -3863,3 +3863,14 @@ remove the file manually to continue.
 [2025-12-08 01:48:11] ⚠️ error: cannot pull with rebase: You have unstaged changes.
 error: additionally, your index contains uncommitted changes.
 error: Please commit or stash them.
+[2025-12-08 01:48:11] [main 465007e] Auto-sync at 2025-12-08 01:48:11
+ 1 file changed, 216 insertions(+)
+[2025-12-08 01:48:13] ⚠️ To https://github.com/Cvbella22/design-workflow.git
+   a29484b..465007e  main -> main
+[2025-12-08 01:48:13] ✅ Sync complete.
+
+[2025-12-08 01:48:13] 📂 Detected change: C:\Users\Christine\Documents\design-workflow\.git\index.lock
+[2025-12-08 01:48:13] 🔄 Starting Git auto-sync...
+[2025-12-08 01:48:13] ⚠️ error: cannot pull with rebase: You have unstaged changes.
+error: additionally, your index contains uncommitted changes.
+error: Please commit or stash them.
