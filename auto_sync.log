@@ -20842,3 +20842,18 @@ error: Please commit or stash them.
 [2025-12-08 01:51:06] Already up to date.
 [2025-12-08 01:51:06] ⚠️ From https://github.com/Cvbella22/design-workflow
  * branch            main       -> FETCH_HEAD
+[2025-12-08 02:57:08] 🔁 Starting Git auto-sync watcher...
+[2025-12-08 02:57:08] ⚠️ Git error: error: cannot pull with rebase: You have unstaged changes.
+error: additionally, your index contains uncommitted changes.
+error: Please commit or stash them.
+[2025-12-08 02:57:08] 🔴 Pull failed — attempting recovery...
+[2025-12-08 02:57:09] ✅ Git success: git fetch --all
+[2025-12-08 02:57:09] ⚠️ Git error: fatal: Unable to create 'C:/Users/Christine/Documents/design-workflow/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+[2025-12-08 02:57:09] ⚠️ Recovery pull failed. Retrying in 10 minutes...
+[2025-12-08 02:58:07] 🛑 Auto-sync watcher stopped manually.
