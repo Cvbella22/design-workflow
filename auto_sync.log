@@ -4147,3 +4147,30 @@ error: additionally, your index contains uncommitted changes.
 error: Please commit or stash them.
 [2025-12-08 01:48:28] [main f2c90a5] Auto-sync at 2025-12-08 01:48:27
  1 file changed, 246 insertions(+)
+[2025-12-08 01:48:30] ⚠️ To https://github.com/Cvbella22/design-workflow.git
+   ca01305..f2c90a5  main -> main
+[2025-12-08 01:48:30] ✅ Sync complete.
+
+[2025-12-08 01:48:30] 📂 Detected change: C:\Users\Christine\Documents\design-workflow\.git\index.lock
+[2025-12-08 01:48:30] 🔄 Starting Git auto-sync...
+[2025-12-08 01:48:30] ⚠️ error: cannot pull with rebase: You have unstaged changes.
+error: additionally, your index contains uncommitted changes.
+error: Please commit or stash them.
+[2025-12-08 01:48:30] ⚠️ fatal: Unable to create 'C:/Users/Christine/Documents/design-workflow/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+[2025-12-08 01:48:30] [main 5b16f3c] Auto-sync at 2025-12-08 01:48:30
+ 1 file changed, 2 insertions(+)
+[2025-12-08 01:48:32] ⚠️ To https://github.com/Cvbella22/design-workflow.git
+   f2c90a5..5b16f3c  main -> main
+[2025-12-08 01:48:32] ✅ Sync complete.
+
+[2025-12-08 01:48:32] 📂 Detected change: C:\Users\Christine\Documents\design-workflow\.git\objects\e6\tmp_obj_POE3K5
+[2025-12-08 01:48:32] 🔄 Starting Git auto-sync...
+[2025-12-08 01:48:32] ⚠️ error: cannot pull with rebase: You have unstaged changes.
+error: additionally, your index contains uncommitted changes.
+error: Please commit or stash them.
