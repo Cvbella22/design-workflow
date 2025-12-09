@@ -20857,3 +20857,5 @@ may have crashed in this repository earlier:
 remove the file manually to continue.
 [2025-12-08 02:57:09] ⚠️ Recovery pull failed. Retrying in 10 minutes...
 [2025-12-08 02:58:07] 🛑 Auto-sync watcher stopped manually.
+[2025-12-09 09:55:12] ✅ Git success: git reset --hard origin/main
+[2025-12-09 09:55:12] 🟢 Recovery succeeded — repository reset cleanly.
